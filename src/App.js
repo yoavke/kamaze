@@ -32,8 +32,8 @@ function App() {
   return (
     <div className="app">
       <div className="title"><h1>Kamaze</h1></div>
-      <div className="price"><input type="text" placeholder="price" onChange={handleChange} name="price" value={formValues.price} /></div>
-      <div className="percentage"><input type="text" placeholder="percentage" onChange={handleChange} name="percentage" value={formValues.percentage} /></div>
+      <div className="price"><input type="number" placeholder="price" onChange={handleChange} name="price" value={formValues.price} /></div>
+      <div className="percentage"><input type="number" placeholder="percentage" onChange={handleChange} name="percentage" value={formValues.percentage} /></div>
       <div className="discount"><button onClick={setDiscount}>discount</button></div>
       <div className="tip"><button onClick={setTip}>tip</button></div>
       <div className="result">{result}</div>
