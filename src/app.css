@@ -2,7 +2,7 @@ html,body{
     margin:0;padding:0;box-sizing: content-box;
     background-color: #4FD1C5;
 }
-.app{
+.app {
     display: grid;
     /* grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr); */
@@ -15,7 +15,7 @@ html,body{
     height: 100vh;
     font-family: arial;
     padding: 0.5em 1em;
-    column-gap: 2em;
+    gap: 2em;
 }
 
 .title {
