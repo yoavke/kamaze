@@ -1,6 +1,6 @@
 import './app.css';
 
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 
 function App() {
   const [formValues, setFormValues] = useState({price: '', percentage: ''});
