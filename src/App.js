@@ -1,11 +1,15 @@
 import './app.css';
 
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 
 function App() {
   const [formValues, setFormValues] = useState({price: '', percentage: ''});
   const [result, setResult] = useState('');
 
+  useEffect(() => {
+    console.log('result', result, result.length);
+  },[result]);
+  
   const handleChange = ({target}) => {
     const newValues = {
       ...formValues,
@@ -19,14 +23,16 @@ function App() {
     const price = Number(formValues.price);
     const percentage = Number(formValues.percentage);
 
-    setResult(price+(price*percentage/100));
+    const total = (price+(price*percentage/100)).toFixed(1);
+    setResult(total);
   }
   
   const setDiscount = () => {
     const price = Number(formValues.price);
     const percentage = Number(formValues.percentage);
 
-    setResult(price-(price*percentage/100));
+    const total = (price-(price*percentage/100)).toFixed(1);
+    setResult(total);
   }
 
   return (
@@ -36,7 +42,7 @@ function App() {
       <div className="percentage"><input type="number" placeholder="percentage" onChange={handleChange} name="percentage" value={formValues.percentage} /></div>
       <div className="discount"><button onClick={setDiscount}>discount</button></div>
       <div className="tip"><button onClick={setTip}>tip</button></div>
-      <div className="result">{result}</div>
+      <div className="result">{(result>0)?result:''}</div>
     </div>
   );
 }
