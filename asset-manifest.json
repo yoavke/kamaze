@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kamaze/static/css/main.06fe0c13.css",
-    "main.js": "/kamaze/static/js/main.5025a76f.js",
+    "main.css": "/kamaze/static/css/main.0d8a87e0.css",
+    "main.js": "/kamaze/static/js/main.d7a712eb.js",
     "index.html": "/kamaze/index.html",
-    "main.06fe0c13.css.map": "/kamaze/static/css/main.06fe0c13.css.map",
-    "main.5025a76f.js.map": "/kamaze/static/js/main.5025a76f.js.map"
+    "main.0d8a87e0.css.map": "/kamaze/static/css/main.0d8a87e0.css.map",
+    "main.d7a712eb.js.map": "/kamaze/static/js/main.d7a712eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.06fe0c13.css",
-    "static/js/main.5025a76f.js"
+    "static/css/main.0d8a87e0.css",
+    "static/js/main.d7a712eb.js"
   ]
 }
