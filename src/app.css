@@ -1,11 +1,10 @@
+*{user-select: none;}
 html,body{
     margin:0;padding:0;box-sizing: content-box;
     background-color: #4FD1C5;
 }
 .app {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr); */
     grid-template-areas: "title title"
         "price price"
         "percentage percentage"
