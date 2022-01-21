@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kamaze/static/css/main.06fe0c13.css",
+    "main.js": "/kamaze/static/js/main.5025a76f.js",
+    "index.html": "/kamaze/index.html",
+    "main.06fe0c13.css.map": "/kamaze/static/css/main.06fe0c13.css.map",
+    "main.5025a76f.js.map": "/kamaze/static/js/main.5025a76f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06fe0c13.css",
+    "static/js/main.5025a76f.js"
+  ]
+}
